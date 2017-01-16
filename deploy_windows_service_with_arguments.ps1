@@ -1,3 +1,11 @@
+### Arguments:
+### -projectFolder:"Tm.RequestService.Svc"
+### -projectName:"Tm.RequestService.Svc.csproj"
+### -configuration:"Develop"
+### -remoteServer:"192.168.30.4"
+### -remoteServiceName:"Tm.RequestService.Svc-Develop"
+### -remoteServicePath:"\\192.168.30.4\Telemedicine\Develop\Tm.RequestService.Svc"
+
 param(
     [parameter(Mandatory=$true)] [string]$projectFolder,
     [parameter(Mandatory=$true)] [string]$projectName,
